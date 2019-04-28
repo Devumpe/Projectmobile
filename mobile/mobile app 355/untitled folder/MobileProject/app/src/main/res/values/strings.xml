@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Projectmobileapp</string>
+    <string name="total">Total</string>
+    <string name="spent">Total Spent</string>
+    <string name="ba">Balance</string>
+    <string name="today">Today</string>
+    <string name="ftoday">For day</string>
+    <string name="bf">Brought forward</string>
+    <string name="week">Week</string>
+    <string name="fweek">For week</string>
+    <string name="submit">Submit</string>
+    <string name="age">Age</string>
+    <string name="abdge">06/08/1996</string>
+    <string name="s">$</string>
+    <string name="des">Description</string>
+    <string name="price">Price</string>
+    <string name="showdate">Choose Date</string>
+</resources>

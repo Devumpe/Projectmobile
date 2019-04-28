@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Appresource</string>
+    <string name="color_text">Color Value</string>
+    <string name="dimen_text">Dimension Value</string>
+    <string name="style_text">Style</string>
+    <string name="action_setting">Setting</string>
+    <string name="hello">Say Hello</string>
+
+</resources>

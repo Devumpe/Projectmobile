@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top|center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/todaybtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/today" />
+
+            <Button
+                android:id="@+id/weekbtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/week" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/showdatebtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:outlineAmbientShadowColor="@color/yellow"
+            android:text="@string/showdate" />
+
+        <TextView
+            android:id="@+id/showdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margintop"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/texttotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:text="@string/total"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <EditText
+                android:id="@+id/edittotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/texts1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/s"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/fweek1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fweek"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/bf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:text="@string/bf"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/editbf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:ems="14"
+                android:text="0"
+
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/texts2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/s"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/fweek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/fweek"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textspent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:text="@string/spent"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/lnsize" />
+
+            <EditText
+                android:id="@+id/editspent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/texts3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/s"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/ftoday1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ftoday"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_weight="1"
+                android:text="@string/ba"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/bsize"
+
+                />
+
+            <EditText
+                android:id="@+id/editbalance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="14"
+                android:inputType="number"
+
+                />
+
+            <TextView
+                android:id="@+id/texts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/s"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+            <TextView
+                android:id="@+id/ftoday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ftoday"
+                android:textColor="@color/yellow"
+                android:textSize="@dimen/nsize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <ImageButton
+                android:id="@+id/submit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@android:drawable/ic_menu_send"
+                android:text="@string/submit" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/showtotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/bsize" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="heroes">
+        <item>Ant Man</item>
+        <item>Batman</item>
+        <item>Captian America</item>
+        <item>Iron Man</item>
+        <item>Mr.Fantastic</item>
+        <item>Spider Man</item>
+        <item>Thor</item>
+        <item>Wolverine</item>
+
+
+    </array>
+
+</resources>

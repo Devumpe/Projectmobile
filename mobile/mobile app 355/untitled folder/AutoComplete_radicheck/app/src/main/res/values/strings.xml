@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AutoComplete_radicheck</string>
+    <string-array name="dccharactor">
+        <item>CAPTAIN COLD</item>
+        <item>SUPER GIRL</item>
+        <item>WONDER WOMEN</item>
+        <item>THE FLASH</item>
+        <item>ARROW</item>
+        <item>ATOM</item>
+        <item>AQUAMAN</item>
+        <item>BATMAN</item>
+        <item>DEATHSTROKE</item>
+        <item>FIRESTORM</item>
+        <item>GREEN ARROW</item>
+        <item>HARLEY QUIN</item>
+        <item>HEAT WAVE</item>
+        <item>MISTER MIRACLE</item>
+        <item>PANDORA</item>
+        <item>ZOOM</item>
+        <item>VIXEN</item>
+    </string-array>
+</resources>

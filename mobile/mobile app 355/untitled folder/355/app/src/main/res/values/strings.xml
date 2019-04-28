@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">twoclasslistener</string>
+    <string name="msg1">msg1</string>
+    <string name="msg2">msg2</string>
+    <string name="button1">button1</string>
+    <string name="button2">button2</string>
+    <string name="clear">clear</string>
+
+    <string name="your_name">your_name</string>
+
+</resources>

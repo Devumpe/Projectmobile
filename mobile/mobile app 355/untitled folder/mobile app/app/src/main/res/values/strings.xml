@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CS355 Value Passing Example</string>
+    <!-- Main Activity -->
+    <string name="main_instruction_text">Example: Pass value from Activity to Another</string>
+    <string name="btn_text">BUTTON</string>
+    <!-- End of main Activity -->
+    <!-- Secound Activity -->
+    <string name="instruction_text_secound_act">The string from previous page</string>
+    <!-- End of secound Activity -->
+
+</resources>
